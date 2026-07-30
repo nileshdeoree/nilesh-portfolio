@@ -164,7 +164,7 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="mt-8 flex gap-4">
+              {/* <div className="mt-8 flex gap-4">
                 <button className="rounded bg-blue-600 px-4 py-2">
                   Live Demo
                 </button>
@@ -172,7 +172,7 @@ export default function Home() {
                 <button className="rounded border border-zinc-700 px-4 py-2">
                   GitHub
                 </button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
