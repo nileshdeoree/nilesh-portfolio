@@ -1,4 +1,4 @@
-// src/app/page.tsx
+import Link from "next/link"
 
 import {
   about,
@@ -217,6 +217,7 @@ export default function Home() {
         <div className="mt-8 space-y-3">
           <p>Email: {contact.email}</p>
           <p>Phone: {contact.phone}</p>
+          <Link href="/blogs">View Blogs</Link>
         </div>
       </section>
     </main>
