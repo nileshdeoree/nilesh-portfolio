@@ -218,6 +218,7 @@ export default function Home() {
           <p>Email: {contact.email}</p>
           <p>Phone: {contact.phone}</p>
           <Link href="/blogs">View Blogs</Link>
+          
         </div>
       </section>
     </main>
